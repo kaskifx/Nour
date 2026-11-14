@@ -75,8 +75,6 @@ html,body{touch-action:manipulation;overscroll-behavior:none}
 .love-replay{margin:0;font-family:var(--serif);font-style:italic;font-size:clamp(1.15rem,4.5vw,1.5rem);color:var(--ink);opacity:0;transition:opacity 3s ease;text-shadow:0 2px 18px rgba(0,0,0,.65)}
 .memory-container.replay-ready .love-replay{opacity:.9}
 @media (max-width:480px){
-  .grain{opacity:.18;mix-blend-mode:normal}
-  .memory-photo{filter:drop-shadow(0 14px 20px rgba(0,0,0,.7))}
   input{font-size:16px}
 }
 </style>
@@ -101,7 +99,7 @@ html,body{touch-action:manipulation;overscroll-behavior:none}
 
 <main class="stage">
   <section class="panel" id="panel">
-    <h1>Love Story</h1>
+    <h1>Love Story N & I</h1>
     <p class="sub">Type the password, my popcorn &lt;3</p>
     <div class="field" id="field">
       <input id="pw" type="password" placeholder="password" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" aria-label="Password">
@@ -120,7 +118,7 @@ html,body{touch-action:manipulation;overscroll-behavior:none}
   /* ===== PHOTOS ===== */
   var SECOND_PHOTO = "pngwing.com ( )_00035.png";
   /* The two extra photos: replace these names with your real files. */
-  var EXTRA_PHOTOS = ["ImadNour.png", "upscaled-16x-336x768.png", "upscaled-16x-896x528.png", "upscaled-16x-576x368.png"];
+  var EXTRA_PHOTOS = ["ImadNour.png", "upscaled-16x-336x768.png", "upscaled-16x-576x368.png", "upscaled-16x-896x528.png"];
   var FINAL_PHOTO  = "rose.png";
   var HOLD_MS = 5000;            /* how long each extra photo stays */
   var FIRST_PHOTO = "pngwing.com (55).png";
